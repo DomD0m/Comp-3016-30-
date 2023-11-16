@@ -1,0 +1,6 @@
+elf 80 30 20 12 6
+tiefling 70 35 15 10 5
+goblin 60 40 10 15 6
+kobold 70 35 15 12 6
+half-Orc 90 50 10 4 2
+half-elf 75 35 25 15 12

@@ -1,0 +1,15 @@
+﻿'Comp 3016 30-.exe' (Win32): Loaded 'C:\Users\Pikac\source\repos\Comp 3016 30-\Debug\Comp 3016 30-.exe'. Symbols loaded.
+'Comp 3016 30-.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. 
+'Comp 3016 30-.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. 
+'Comp 3016 30-.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. 
+'Comp 3016 30-.exe' (Win32): Loaded 'C:\Windows\SysWOW64\apphelp.dll'. 
+'Comp 3016 30-.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140d.dll'. 
+'Comp 3016 30-.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140d.dll'. 
+'Comp 3016 30-.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbased.dll'. 
+The thread 0x3f24 has exited with code 0 (0x0).
+'Comp 3016 30-.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. 
+'Comp 3016 30-.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. 
+'Comp 3016 30-.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. 
+The thread 0x2d74 has exited with code 0 (0x0).
+The thread 0x20f0 has exited with code 0 (0x0).
+The program '[21028] Comp 3016 30-.exe' has exited with code 0 (0x0).

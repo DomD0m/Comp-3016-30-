@@ -1,0 +1,5 @@
+﻿  Comp 3016 30-.cpp
+C:\Users\Pikac\source\repos\Comp 3016 30-\Comp 3016 30-\classes.cpp(97,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Pikac\source\repos\Comp 3016 30-\Comp 3016 30-\classes.cpp(108,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Pikac\source\repos\Comp 3016 30-\Comp 3016 30-\classes.cpp(156,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Comp 3016 30-.vcxproj -> C:\Users\Pikac\source\repos\Comp 3016 30-\Debug\Comp 3016 30-.exe
