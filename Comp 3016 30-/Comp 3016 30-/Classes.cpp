@@ -17,7 +17,9 @@ private:
 
 	int mxheal = 12;
 	int minheal = 6;
-	
+	int minsmitedmg = 45;
+	int mxsmitedmg = 60;
+	int smitecounter = 1;
 
 public:
 
@@ -57,11 +59,10 @@ public:
 		 {
 			 std::cout << "unable to open character races";
 		 }
-		 std::cout << "Hi i'm the noble warrior and adventure Ogier only recently able to access my adventuring pass and now i have this grooling mission ahead of me";
-		 std::cout << "\nthe stats of Ogier\n";
-		 std::cout << "Ogier health is : " << health;
-		 std::cout << "Ogier attack range is : " << mindmg << "-" << mxdmg;
-		 std::cout << "Ogier heal range is : " << minheal << "-" << mxheal;
+		 std::cout << "\nthe stats of Player\n";
+		 std::cout << "\nPlayer health is : \n" << health;
+		 std::cout << "\nPlayer attack range is : \n" << mindmg << "-" << mxdmg;
+		 std::cout << "\nPlaye heal range is : \n" << minheal << "-" << mxheal;
 
 	}
 	
@@ -75,11 +76,11 @@ public:
 			 std::cout << "taken damage of " << dmg;
 			 health = health - dmg;
 		if (health > 0) {
-			 std::cout << "your current health young warrior is: " << health;
+			 std::cout << "\nyour current health young warrior is: \n" << health;
 		 }
 		 else
 		 {
-			 std::cout << "Ogier HAVE died a terrible death one his first adventure, we lose too many adventurers like this. ";
+			 std::cout << "\nYour Adventurer HAVE died a terrible death only on their first adventure, we lose too many adventurers like this. \n";
 				 
 				 
 			 std::cout << "/ \n                    -|-\n";
@@ -97,7 +98,7 @@ public:
 		 srand(time(0));
 		 int randomdmg = (rand() % (mxdmg - mindmg + 1) + mindmg);
 
-		 std::cout << "Player is performing an attack of" << randomdmg << "to the player";
+		 std::cout << "\nPlayer is performing an attack of \n" << randomdmg << " to the player";
 		 std::cout << "            / > _________________________________";
 			 std::cout << "\n[########[]_________________________________ >\n";
 			 std::cout << "        / >";
@@ -110,7 +111,41 @@ public:
 
 		 health = health + randomheal;
 
-		 std::cout << " your HP is now : " << health;
+		 std::cout << "\n your HP is now : \n" << health;
+	 }
+	 void Buff() {
+		 std::cout << "\nYou feel your Power Grow. \n";
+
+		 mindmg = mindmg * 2;
+		 mxdmg = mxdmg * 2;
+	 }
+
+	 int Smite() {
+		 srand(time(0));
+		 if (smitecounter >= 1) {
+			 int smitedmg = (rand() % (mxsmitedmg - minsmitedmg) + minsmitedmg);
+
+			 std::cout << "\nPlayer is performing an attack of the gods dealing : \n" << smitedmg << " to the Enemy";
+
+			 smitecounter = smitecounter - 1;
+			 return smitedmg;
+		 }
+		 else
+		 {
+			 int randomdmg = (rand() % (mxdmg - mindmg + 1) + mindmg);
+
+			 std::cout << "\nPlayer is performing an attack of \n" << randomdmg << " to the player";
+			 std::cout << "            / > _________________________________";
+			 std::cout << "\n[########[]_________________________________ >\n";
+			 std::cout << "        / >";
+			 return randomdmg;
+		 }
+	 }
+
+	 void Charge() {
+		 std::cout << "\nYou pray to the highest being to bless your attacks.\n";
+
+		 smitecounter = smitecounter + 1;
 	 }
 };
 
@@ -122,8 +157,13 @@ private:
 	int enemymxdmg = 20;
 	int enemymindmg = 10;
 
+	int enemymxsmitedmg = 60;
+	int enemyminsmitedmg = 45;
+
 	int mxheal = 12;
 	int minheal = 6;
+
+	int enemysmitecounter = 2;
 
 public:
 	enemy() {
@@ -156,8 +196,41 @@ public:
 		srand(time(0));
 		int enemyrandomdmg = (rand() % (enemymxdmg - enemymindmg ) + enemymindmg);
 
-		std::cout << "\nEnemy is performing an attack of\n" << enemyrandomdmg << "to the player";
+		std::cout << "\nEnemy is performing an attack of \n" << enemyrandomdmg << " to the player";
 
 		return enemyrandomdmg;
+	}
+	void heal() {
+		srand(time(0));
+		int randomheal = (rand() % (mxheal - minheal + 1) + minheal);
+
+		health = health + randomheal;
+
+		std::cout << " your Enemies hp is now : " << health;
+	}
+
+	void Buff() {
+		std::cout << "\nThe Enemy is Grows Stronger \n";
+		enemymindmg = enemymindmg * 2;
+		enemymxdmg = enemymxdmg * 2;
+	}
+
+	int Smite() {
+		srand(time(0));
+		if (enemysmitecounter >= 1) {
+			int enemysmitedmg = (rand() % (enemymxsmitedmg - enemyminsmitedmg) + enemyminsmitedmg);
+
+			std::cout << "\nEnemy is performing an attack of the gods dealing : \n" << enemysmitedmg << " to the player";
+			enemysmitecounter = enemysmitecounter - 1;
+			return enemysmitedmg;
+		}
+		else
+		{
+			int enemyrandomdmg = (rand() % (enemymxdmg - enemymindmg) + enemymindmg);
+
+			std::cout << "\nEnemy is performing an attack of \n" << enemyrandomdmg << " to the player";
+
+			return enemyrandomdmg;
+		}
 	}
 };

@@ -1,0 +1,7 @@
+﻿  Classes.cpp
+C:\Users\Pikac\source\repos\Comp 3016 30-\Comp 3016 30-\Classes.cpp(98,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Pikac\source\repos\Comp 3016 30-\Comp 3016 30-\Classes.cpp(109,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Pikac\source\repos\Comp 3016 30-\Comp 3016 30-\Classes.cpp(124,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Pikac\source\repos\Comp 3016 30-\Comp 3016 30-\Classes.cpp(196,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Pikac\source\repos\Comp 3016 30-\Comp 3016 30-\Classes.cpp(204,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Pikac\source\repos\Comp 3016 30-\Comp 3016 30-\Classes.cpp(219,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
