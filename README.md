@@ -1,3 +1,13 @@
+
+Uml diagram:
+
+
+
+![image](https://github.com/DomD0m/Comp-3016-30-/assets/91669175/aab8b709-9e57-4457-bb3e-71667f3c2489)
+
+
+
+
 # Comp 3016 30
  comp 3016 30% work
 The Visual Studio version that was used for creation was visual studios 2019 and operating system was 64 bit windows 10, this was what was used to test and write the code of the solution.
