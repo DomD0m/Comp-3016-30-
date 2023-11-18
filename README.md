@@ -3,9 +3,10 @@ Uml diagram:
 
 
 
-![image](https://github.com/DomD0m/Comp-3016-30-/assets/91669175/aab8b709-9e57-4457-bb3e-71667f3c2489)
 
 
+
+![Text based diagram](https://github.com/DomD0m/Comp-3016-30-/assets/91669175/1a03a85d-c90f-4fe8-a164-96e680c70d61)
 
 
 # Comp 3016 30
