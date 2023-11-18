@@ -42,3 +42,5 @@ The error handling within the game starts with the first thing, which shows the 
 The second piece is with the reading the .txt file with if the game isn't able to find it then the player is given the basic stats and just being a human race instead of the game just crashsing and this is done if the solution knows the file is open and if not then it gives the basic stats.
 The third piece is within the combat piece which tell the player they input a wrong choice and allows them to redecide their choice for their action.
 
+youtube link : https://youtu.be/khIuEEOVWe8
+Github link: https://github.com/DomD0m/Comp-3016-30-.git
